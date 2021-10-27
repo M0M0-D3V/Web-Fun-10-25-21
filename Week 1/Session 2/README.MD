@@ -1,5 +1,13 @@
 # :star: Welcome **`<div>`-elopers** To Session 2 :star:
-
+---
+## 1- Housekeeping
+### What You Need by end of Sunday to stay in good standing and avoid `falling behind` or `warning`s
+- Both Discussion Questions submitted for Week 1
+- 2 Core Assignments completed and turned in: Registration Form & Plotting Our Blocks
+### What to prepare for Monday's class
+- read up to `Flex Advantage` in CSS module
+### Always Validate your HTML code
+---
 ...Quick recap...
 ## 0- HTML Practice in Groups 5 min
 - Practice identifying HTML tags
@@ -17,13 +25,13 @@
   - what kind of patterns do you notice?
   - how does css know what to target?
   - how far can they "reach"?
+  - how can we use id and class to improve the code?
 ---
 ## 1.5- CSS Intro
-- ***Trying out for band starter HTML***
 - Link to CSS in HTML
   - 3 ways...
   - Which is Best practice? why?
-- Selecting a ___
+- Selecting tags using CSS
   - id vs class vs just element
   - what order?
     - the more specific and unique it is, apply class and id accordingly
@@ -39,13 +47,9 @@
     <img src="css-specificity.gif" style="width: 70%">
 </details>
 
+- ***Trying out for band starter HTML***
 ---
 
-## 2- 
+## 2- Stuff to check out
+- CSS Diner - Game someone made to help practice CSS using food
 ---
-## 3- What You Need by end of Sunday to stay in good standing and avoid `falling behind` or `warning`s
-- Both Discussion Questions submitted for Week 1
-- 2 Core Assignments completed and turned in: Registration Form & Plotting Our Blocks
-## 4- What to prepare for Monday's class
-- read up to `Flex Advantage` in CSS module
-## 5- Always Validate your HTML code
