@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 3 ways to connect css -->
+    <!-- external ** BEST PRACTICE METHOD ** -->
+    <link rel="stylesheet" href="./lecture.css">
+    <!-- internal -->
+    <!-- <style>
+        body {
+            background-color: blue;
+        }
+    </style> -->
+    <title>W1S2 Lecture</title>
+</head>
+
+<body>
+    <!-- inline style -->
+    <!-- <body style="background-color: green;"> -->
+    <!-- header top portion of page -->
+    <header>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">Social Media</a> |
+            <a href="#">About Us</a> |
+            <a href="#">Logout</a>
+        </nav>
+        <img src="./img/hero.jpg" alt="airguitar">
+        <h1>Audition for <span>[Insert Band Name]</span></h1>
+    </header>
+    <!-- instruments, requirements, and form -->
+    <main>
+        <div>
+            <h3>Bass</h3>
+            <img src="./img/bass.jpg" alt="Bass">
+        </div>
+        <div>
+            <h3>Guitar</h3>
+            <img src="./img/guitar.jpg" alt="Guitar">
+        </div>
+        <div>
+            <h3>Vocal</h3>
+            <img src="./img/mic.jpg" alt="Vocal">
+        </div>
+        <div>
+            <h3>Drum</h3>
+            <img src="./img/drums.jpg" alt="Drum">
+        </div>
+        <div>
+            <h3>Keyboard</h3>
+            <img src="./img/kb.jpg" alt="Keyboard">
+        </div>
+
+        <h2>Audition Requirements</h2>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut explicabo assumenda pariatur quaerat eum
+                voluptatem praesentium obcaecati ratione id aliquid. Beatae nulla, voluptate repudiandae enim natus
+                quasi provident quas aliquam?
+            </p>
+            <p>
+                Sed laborum maxime porro necessitatibus, minima soluta veniam, quia ex eius, modi itaque. Esse, animi
+                recusandae fugit odit ad repellendus itaque, minima labore similique accusantium numquam ipsam aliquid
+                aperiam alias!
+            </p>
+        </div>
+        <p>
+            Nam, aliquid atque quis recusandae et quidem non voluptate odio quo doloribus repellat officia quia ducimus
+            praesentium ea in corrupti dolorum? Nam praesentium deserunt veritatis optio velit tempora atque nulla.
+        </p>
+        <!-- sign up form -->
+        <h2>Sign Up</h2>
+        <form>
+            <!-- <form action="" method=""> -->
+            <!-- a trick you can do is use <p> and wrap the closing tag outside of <input> tag -->
+            <!-- <p>Your Name:
+                <input type="text" placeholder="The Dude">
+            </p> -->
+            <div>
+                <!-- the "for" attribute in label is useful on the browser. When user clicks on the text "Your Name", the input box will automatically be selected for user to start typing their name -->
+                <label for="your-name">Your Name:</label>
+                <input id="your-name" type="text" placeholder="Jack Black">
+            </div>
+            <div>
+                <label>Your Stage Name:</label>
+                <input id="stage-name" type="text" placeholder="Tenacious D" value="KISS">
+            </div>
+            <div>
+                <label>Contact Info:</label>
+                <input type="text" placeholder="876-5309">
+            </div>
+            <div>
+                <label>What do you play?</label>
+                <input type="text" placeholder="guitar hero">
+            </div>
+            <div>
+                <label>What is your power color?</label>
+                <input type="color">
+            </div>
+            <div>
+                <label>Secret Code:</label>
+                <input type="password">
+            </div>
+            <input type="submit">
+            <!-- attributes like name and value will be used in backend -->
+        </form>
+    </main>
+    <!-- copyright and logo -->
+    <footer>
+        <p>Copyright 2021, by Ninjas of the Dojo</p>
+        <img src="./img/ninja.png" alt="ninja">
+    </footer>
+</body>
+
+</html>

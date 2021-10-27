@@ -1,0 +1,16 @@
+/* ************************************ */
+/* CSS RESET- this means we "zero out" any default settings the browser has */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 0.5px dotted cyan; */
+    /* comment out same way as html, ctrl or cmd + / */
+}
+/* ************************************ */
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
