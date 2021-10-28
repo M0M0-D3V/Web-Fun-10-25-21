@@ -1,0 +1,72 @@
+/* ************************************ */
+/* CSS RESET- this means we "zero out" any default settings the browser has */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 0.5px dotted cyan; */
+    /* comment out same way as html, ctrl or cmd + / */
+}
+/* ************************************ */
+body {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #fffff7;
+}
+header {
+    width: fit-content;
+    height: fit-content;
+    font-weight: bold;
+    background-color: linen;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+}
+ol {
+    list-style-position: inside;
+}
+body > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+body div div {
+    border: 3px solid lightblue;
+    width: 45%;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: white;
+}
+body div div img {
+    width: 100%;
+    object-fit: cover;
+}
+h2 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    background-color: lightyellow;
+    padding: 5px;
+}
+ul {
+    margin-left: 20px;
+}
+header ul li {
+    font-weight: 300;
+    font-style: italic;
+}
+code {
+    font-family: 'Courier New', Courier, monospace;
+    color: purple;
+    background-color: lightyellow;
+}
+body div div div {
+    border: none;
+    margin: 0;
+}
+
+h1 {
+    text-align: left;
+    color: blue;
+}

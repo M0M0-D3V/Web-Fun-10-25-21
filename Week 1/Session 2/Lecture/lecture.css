@@ -1,16 +1,49 @@
 /* ************************************ */
 /* CSS RESET- this means we "zero out" any default settings the browser has */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* border: 0.5px dotted cyan; */
-    /* comment out same way as html, ctrl or cmd + / */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0.5px dotted cyan;
+  /* comment out same way as html, ctrl or cmd + / */
 }
 /* ************************************ */
-
+body {
+  background-color: white;
+}
 img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+header {
+  width: 75%;
+  margin: 0 auto;
+}
+nav {
+  background-color: lightblue;
+}
+#hero {
+  width: 100%;
+  height: 200px;
+}
+.instrument {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 3px;
+}
+.box {
+    background-color: lightsalmon;
+  width: 18%;
+  /* box model is: margin, padding, border */
+  padding: 10 px; 
+  padding: 10 px 10 px;
+  padding: 10 px 10 px 10 px 10 px;
+  padding-top: 10 px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 15px;
+  /* notations are single number or, 2, or 4 numbers */
+  display: inline-block;
 }
