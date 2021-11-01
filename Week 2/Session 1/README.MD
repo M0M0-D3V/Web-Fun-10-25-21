@@ -3,23 +3,17 @@
 - Exam window starting this Friday
 - What's the exam like?
 ---
-## 1- Questions and Recap...
-- What we learn and what it do?
-  - HTML elements
-  - CSS Box Model
-  - Display Inline and Block
-  - CSS and Why
+## 0.5- Questions and Recap...
 --- 
-## 
-## 2- CSS Page Layout
+## 1- CSS Page Layout
 - Building HTML in Layers
   - Lego Concept
   - Firefox 3d View..
 ---
-## 3- CSS Flex Box
+## 2- CSS Flex Box
 - Flex
 ---
-## 4- Demo
+## 3- Demo
 - Flexing our Blocks
 ---
 ### CSS Resources
