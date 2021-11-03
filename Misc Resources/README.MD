@@ -5,6 +5,7 @@
 - [CSS Tricks Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [FlexBox Froggy](https://flexboxfroggy.com/)
 - [Flex Playground](https://codepen.io/enxaneta/full/adLPwv)
+- [FlexBox Zombies](https://mastery.games/flexboxzombies/)
 - [StackOverflow - addEventListener vs onclick](https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick)
 - [DEV - querySelector vs getElementBy...](https://dev.to/jasterix/queryselectorall-vs-getelements-2mnf)
 - [Git - Pretty](http://justinhileman.info/article/git-pretty/)
