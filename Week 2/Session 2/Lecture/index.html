@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- can put js file in head also -->
+    <!-- <script src="script.js" defer></script> -->
+    <link href="style.css" rel="stylesheet">
+    <title>Microwave</title>
+</head>
+<body class="flex space-evenly">
+    <h1 id="title">Microwave</h1>
+    <div id="microwave" class="flex">
+        <div id="window" class="off">
+            <div id="handle"></div>
+        </div>
+        <div id="panel" class="flex">
+            <div id="clock"><p>10:00</p></div>
+            <div id="prog-btns" class="flex wrap space-between">
+                <p class="program-btn small">Popcorn</p>
+                <p class="program-btn small">Pizza</p>
+                <p class="program-btn small">Soup</p>
+                <p id="potato-btn" class="program-btn small">Potato</p>
+                <p class="program-btn small">Meat</p>
+                <p class="program-btn small">Reheat</p>
+                <p class="program-btn small">IceCream</p>
+                <p class="program-btn small">Butter</p>
+            </div>
+            <div id="min-btns" class="flex wrap space-between">
+                <p class="min-btn" onclick="message(this)">1</p>
+                <p class="min-btn" onclick="message(this)">2</p>
+                <p class="min-btn" onclick="message(this)">3</p>
+                <p class="min-btn" onclick="message(this)">4</p>
+                <p class="min-btn" onclick="message(this)">5</p>
+                <p class="min-btn" onclick="message(this)">6</p>
+                <p class="min-btn" onclick="message(this)">7</p>
+                <p class="min-btn" onclick="message(this)">8</p>
+                <p class="min-btn" onclick="message(this)">9</p>
+                <p class="min-btn small">Clock</p>
+                <p class="min-btn">0</p>
+                <p class="min-btn small">Timer</p>
+            </div>
+            <div id="start-stop" class="flex space-evenly">
+                <p id="stop" class="ss-btn">Stop</p>
+                <p id="start" class="ss-btn">Start</p>
+            </div>
+        </div>
+    </div>
+    <h3>Total # Things Cooked: <span id="total">0</span></h3>
+    <div id="counters" class="flex space-evenly">
+        <p>Popcorn <span>0</span></p>
+        <p>Pizza <span>0</span></p>
+        <p>Soup <span>0</span></p>
+        <p>Potato <span>0</span></p>
+        <p>Meat <span>0</span></p>
+        <p>Reheat <span>0</span></p>
+        <p>Ice Cream <span>0</span></p>
+        <p>Butter <span>0</span></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
