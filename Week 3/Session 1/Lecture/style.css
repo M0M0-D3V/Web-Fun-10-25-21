@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 0.5px dotted cyan; */
+    font-family:Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #222;
+    border: 3px solid gold;
+}
+h1 {
+    color: cyan;
+
+}
+header > div > div {
+    padding: 20px;
+}
+.nav-link {
+    color: lemonchiffon;
+    text-decoration: none;
+}
+.cyan{
+    color: cyan;
+}
+ul{
+    background-color: lightgray;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+ul li {
+    padding: 5px 20px;
+}
+
+/* main section */
+body{
+    background-color: gray;
+}
+h2{
+    color: lemonchiffon;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.pop-classes{
+    width: 32%;
+    border: 3px solid gold;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+}
+.class-photo {
+    width: 100%;
+    /* border-radius: 20px; */
+
+}
+.heart{
+    width: 30px;
+    vertical-align: middle;
+}
+.addperson {
+    width: 20px;
+    vertical-align: middle;
+}
+/* .pop-class > div {
+
+} */
+.bottom-buttons{
+    margin-top: 10px;
+}
+button{
+    background-color: cyan;
+    padding: 5px;
+    font-style: bold;
+    border: 1px solid black;
+    box-shadow: 3px 3px black;
+}
+.senseis {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 49%;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+.senseis > img {
+    width: 40%;
+    height: 150px;
+    object-fit: cover;
+}
+.sensei-info {
+    margin-left: 20px;
+}
+.sensei-info > * {
+    margin: 10px 0;
+}
+
+
+/* tools */
+.flex {
+    display: flex;
+    align-items: center;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.space-between {
+    justify-content: space-between;
+}
+.wrap {
+    flex-wrap: wrap;
+}

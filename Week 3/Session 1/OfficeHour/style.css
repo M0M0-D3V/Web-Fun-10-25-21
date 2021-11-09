@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 75%;
+    margin: 0 auto;
+    /* center everything */
+    
+}
+h1 {
+
+}
+div {
+/* get all of the divs */
+border: 1px dotted blue;
+}
+ul {
+    /* this is the parent for the links */
+    border-width: 3px;
+    border-style: solid;
+    border-color: green;
+
+    /* border: 3px solid green; */
+    width: 50%;
+    /* display: flex; */
+    list-style-type: none;
+
+}
+li {
+    margin: 20px;
+    background-color: gray;
+    padding: 10px;
+}
+#nav{
+    width: 100%;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 20vh;
+    align-content: space-between;
+}
+.box {
+    width: 48%;
+}
+#abs{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: absolute;
+    top: 100px;
+    left: 900px;
+}
