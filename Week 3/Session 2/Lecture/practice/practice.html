@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        /* internal styling just for class purpose, not great practice professionally */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      body {
+        width: 80%;
+        margin: 0 auto;
+      }
+      h1 {
+        color: darkgreen;
+      }
+      h2 {
+        color: blue;
+      }
+      .question {
+        font-weight: bold;
+      }
+      div > *:not(.inline-b) {
+        margin: 15px 0;
+      }
+      .inline-b {
+        display: inline-block;
+        margin: 0;
+        vertical-align: middle;
+      }
+      .inline-b > p {
+        font-weight: lighter;
+        font-style: italic;
+        color: blue;
+        margin: 0;
+      }
+      p.inline-b {
+        font-weight: bold;
+        font-size: 30pt;
+        margin: 0 10px;
+      }
+      .answer,
+      pre,
+      code {
+        margin: 5px;
+        color: darkblue;
+        font-family: monospace;
+        font-size: 15px;
+      }
+      .s200 {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+    </style>
+    <title>JS Practice</title>
+  </head>
+  <body>
+    <h1>So how about them Javascripts?</h1>
+
+    <!-- Determine which JS solution fits each scenario -->
+
+    <!-- Question 1 -->
+    <div>
+      <h2>Question 1</h2>
+      <p class="question">
+        Given an image that is stored as a variable, <code>pic</code>, which JS
+        code will change the image to <code>"ninja.jpg"</code>?
+      </p>
+      <div class="inline-b">
+        <p>potato.png</p>
+        <img class="s200" src="potato.png" alt="potato" />
+      </div>
+      <p class="inline-b">==></p>
+      <div class="inline-b">
+        <p>ninja.jpg</p>
+        <img class="s200" src="ninja.jpg" alt="ninja" />
+      </div>
+      <p class="answer">A: img.href = "ninja.jpg";</p>
+      <p class="answer">B: img.src = "ninja.jpg";</p>
+      <p class="answer">C: pic.img = "ninja.jpg";</p>
+      <p class="answer">D: pic.src = "ninja.jpg";</p>
+    </div>
+
+    <!-- Question 2 -->
+    <div>
+      <h2>Question 2</h2>
+      <p class="question">This JS function needs an argument when called.</p>
+      <img src="q2.png" alt="q2" />
+      <p class="answer">True</p>
+      <p class="answer">False</p>
+    </div>
+
+    <!-- Question 3 -->
+    <div>
+      <h2>Question 3</h2>
+      <p class="question">
+        If <code>Arrays</code> are like parking spots that start at
+        <code>0</code>, what spot (index) is the <code>Subaru</code> parked in?
+      </p>
+      <img src="q3.png" alt="q3" />
+      <p class="answer">A: 4</p>
+      <p class="answer">B: 5</p>
+      <p class="answer">C: 3</p>
+      <p class="answer">D: 2</p>
+    </div>
+
+    <!-- Question 4 -->
+    <div>
+      <h2>Question 4</h2>
+      <p class="question">
+        What JS will select the <code>button</code> with the id
+        <code>message</code> and save to variable <code>msg</code>?
+      </p>
+      <!-- <button id="message" type="submit">Send Message</button> -->
+      <img src="q4.png" alt="q4" />
+      <p class="answer">A: let msg = getElement("message")</p>
+      <p class="answer">B: let message = document.getElementById("msg")</p>
+      <p class="answer">C: let msg = document.getElementById("message")</p>
+      <p class="answer">D: let message = getElement("msg")</p>
+    </div>
+  </body>
+</html>

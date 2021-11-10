@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+#regions, #cuts {
+    width: 100%;
+    border: 3px solid gray;
+    min-height: 50px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.region {
+    color: rebeccapurple;
+    font-weight: bold;
+    background-color: lightyellow;
+    padding: 10px;
+}
+#theButton, #theOtherButton {
+    padding: 5px;
+    background-color: lightskyblue;
+    border-radius: 15px;
+    border-color: gray;
+    border-style: solid;
+    color: blue;
+    font-size: 8pt;
+}
+.it {
+    font-style: italic;
+}
+.cut {
+    color: blue;
+    font-weight: bold;
+    background-color: linen;
+    padding: 10px;
+    width: 19%;
+}
+.cut img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}

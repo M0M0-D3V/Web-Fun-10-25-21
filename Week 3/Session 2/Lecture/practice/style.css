@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+h1 {
+    color: darkgreen;
+}
+h2{
+    color: blue;
+}
+.question {
+    font-weight: bold;
+}
+div > *:not(.inline-b) {
+    margin: 15px 0;
+}
+.inline-b {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+.inline-b > p {
+    font-weight: lighter;
+    font-style: italic;
+    color: blue;
+    margin: 0;
+}
+p.inline-b {
+    font-weight: bold;
+    font-size: 30pt;
+    margin: 0 10px;
+}
+.answer, pre, code {
+    margin: 5px;
+    color: darkblue;
+    font-family: monospace;
+    font-size: 15px;
+}
+.s200 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
