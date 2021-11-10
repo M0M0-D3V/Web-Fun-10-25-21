@@ -4,28 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script src="beefy.js"></script>
+    <!-- <script src="fireEmblemClasses.js"></script>
     <script src="script.js" defer></script>   defer needs to be there for writing scripts inside head so it waits for all the html to load before it acts--> 
     <link href="style.css" rel="stylesheet">
-    <title>What's Your Beef?</title>
+    <title>What's Your Class?</title>
 </head>
 <body>
-    <h1 class="mb-20">Our Mission if we so choose...</h1>
-    <h2 class="mb-20">1. Use a for loop to build a new array with just the names of each region of the beefObject. Then display it to browser by manipulating the DOM selecting the id "regions" and using divs and class name "region"</h2>
-    <div id="regions" class="mb-20">
-        <!-- Put each child region in here using JS -->
+    <h1 class="mb-20">Our Mission Tonight...</h1>
+    <h2 class="mb-20">1. Use a <code>for</code> loop to find each name of class in the <code>fireEmblemClasses</code>. Then display it to browser by manipulating the DOM selecting the id "<code>classes</code>" and using divs and class name "<code>class</code>"</h2>
+    <div id="classes" class="mb-20 container">
+        <!-- Put each child class in here using JS -->
+        <!-- use .class to style each child div -->
     </div>
-    <h2 class="mb-20">2. Add a trigger to this button to show the visual of region names in the box above instead</h2>
-    <button id="theButton" class="mb-20" onmouseover="showRegions()" onmouseleave="hideRegions()">Regions</button>
+    <h2 class="mb-20">2. Add an event to this button to show class names in the box when it is clicked</h2>
+    <button id="btnClasses" class="mb-20">Classes</button>
     <h2 class="mb-20">3. What if it was a hover effect instead of mouse click?</h2>
-    <h2 class="mb-20 it">4. Bonus - How can we show all the 'cuts'?</h2>
-    <button id="theOtherButton" class="mb-20" onclick="showCuts()">Cuts</button>
-    <div id="cuts" class="mb-20">
-        <!-- Put each child cut in here using JS -->
+    <h2 class="mb-20">4. How can we make this <code>Refresh</code> button empty the container?</h2>
+    <button id="btnRefresh" class="mb-20">Refresh</button>
+    <h2 class="mb-20">*Bonus* How can we add a condition to search Name by input?</h2>
+    <form>
+        <!-- Use input fields -->
+        <label for="inputName">class name</label>
+        <input type="text" id="inputName">
+        <button id="btnSearch" class="mb-20" onclick="filterClasses(event)">Search</button>
+    </form>
+    <div id="filters" class="mb-20 container">
+        <!-- Put each child in here using JS -->
     </div>
 
-    <h2 class="mb-20 it">5. Bonus - How can we include images from the folder to each cut?</h2>
-    <script src="beefy.js"></script>
+    <script src="fireEmblemClasses.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
