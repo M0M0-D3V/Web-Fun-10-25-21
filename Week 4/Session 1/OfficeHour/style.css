@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0.5px dotted pink;
+    box-sizing: border-box;
+    /* this property will help contain all the sizing within the width */
+}
+nav {
+    width:800px;
+    padding: 20px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
