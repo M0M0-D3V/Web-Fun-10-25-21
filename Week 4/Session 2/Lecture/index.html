@@ -10,8 +10,24 @@
 <body>
     <!-- LET'S BUILD SOMETHING -->
     <!-- Button that retrieves from API -->
+    <button onclick="getInfo()">Get API Info</button>
+    <div id="info-here">
+        <h3 id="h3">this is the last thing in the box</h3>
+    </div>
     <!-- Results appear automatically inside a div -->
 
+    <!-- Create Select drop down for user to select what breed -->
+    <div>
+        <select id="breed">
+            <option>hound</option>
+            <option>beagle</option>
+            <option>dachshund</option>
+            <option>russell</option>
+            <option>husky</option>
+        </select>
+        <!-- Create form for the user to input # of images -->
+        <input type="number" id="num-doges" placeholder="how many?">
+    </div>
 
     <script src="./script.js"></script>
 </body>

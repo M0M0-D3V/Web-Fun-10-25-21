@@ -1,0 +1,13 @@
+img {
+    width: 300px;
+}
+.show {
+    display: block;
+}
+
+.no-show {
+    display: none;
+}
+.see-through {
+    opacity: 0.5;
+}
