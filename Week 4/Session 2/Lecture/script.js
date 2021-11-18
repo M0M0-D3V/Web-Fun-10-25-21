@@ -7,13 +7,13 @@ let h3 = document.getElementById("h3")
 async function getInfo() {
     // how can we include the breed from select to the url?
     let breed = document.getElementById("breed").value
-    let response = await fetch(`${url}/${breed}/images`)
-    let info = await response.json()
     let number = document.getElementById("num-doges").value
     console.log(number)
     if (breed == "russell") {
         breed = "terrier/russell"
     }
+    let response = await fetch(`${url}/${breed}/images`)
+    let info = await response.json()
     for(let i = 0; i < parseInt(number); i++) {
         // this printed the src string for each img
         let imgLoc = info['message'][i]
